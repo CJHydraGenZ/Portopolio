@@ -1,19 +1,27 @@
 import React from 'react'
 import { AppBar, Toolbar, Typography, Button } from '@material-ui/core'
-import { BrowserRouter as Router, Link } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 import { Content } from '../Content/Content'
 export const Navbar = () => {
+
+
+  function FLink({ to, props }) {
+    return <Button component={Link} to={to}>{props}</Button>
+  }
+
+
   return (
     < >
       <Router>
         <nav>
-          <AppBar position="static">
+          <AppBar position="fixed">
             <Toolbar>
               <Button> CJ</Button>
-              <Button component={Link} to='/'>Profile</Button>
-              <Button component={Link} to='/showcase'>Showcase</Button>
-              <Button component={Link} to='/skill'>Skill</Button>
-              <Button component={Link} to='/contact'>Contact</Button>
+              <FLink to='#' props='Profile' />
+              <FLink to='#showcase' props='Showcase' />
+              <FLink to='#skill' props='Skill' />
+              <FLink to='#contact' props='Contact' />
             </Toolbar>
           </AppBar>
         </nav>

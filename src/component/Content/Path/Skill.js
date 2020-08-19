@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Skill = () => {
   return (
-    <div>
-      Skill
+    <div id='skill'>
+      <strong>  Skill</strong>
 
 
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam similique vitae ipsum amet adipisci aperiam expedita vel, optio dolorem. Repudiandae doloremque nostrum, nihil eos quos numquam vero atque accusantium quasi!

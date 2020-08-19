@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Showcase = () => {
   return (
-    <div>
-      Showcase
+    <div id='showcase'>
+      <strong> Showcase</strong>
 
 
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quo maxime similique dolore odit voluptate nemo illum quas dignissimos culpa ea reprehenderit repellendus at sit laborum deserunt, aliquid optio sint.
