@@ -1,0 +1,20 @@
+.showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  background-color: rgb(112, 112, 112);
+  overflow: hidden;
+  padding: 1em 2em;
+}
+
+.paper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  padding: 2em;
+  text-align: center;
+  color: aliceblue;
+}

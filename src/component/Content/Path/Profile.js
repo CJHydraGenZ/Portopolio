@@ -1,13 +1,14 @@
 import React from 'react'
+import '../../../assets/css/Profile.css'
+
 
 export const Profile = () => {
   return (
     <div id="profile">
-      <strong> Profile</strong>
+      <div className="jumbotron">
+        <h1>PRofile</h1>
+      </div>
 
-
-
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cupiditate cumque vitae quas, provident accusantium officiis sapiente unde voluptate tenetur. Quos quae veritatis voluptas dolorum quaerat totam, possimus quam blanditiis.
     </div>
   )
 }
